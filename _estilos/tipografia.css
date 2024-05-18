@@ -1,0 +1,141 @@
+/* 
+TIPOGRAFIA
+fontes iguais as do professor:
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+
+fontes que peguei do site:
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+CORES e RGBAs
+
+AZUL MEIO ESCURO: #45718C; rgba: 69, 113, 140, 55;
+AZUL ESCURO: #0F2026; rgba: 15, 32, 38, 15; 
+BEGE CLARO: #D9AD77; rgba: 217, 173, 119, 85;
+MARROM CLARO: #8C6746; 140, 103, 70, 55;
+MARROM ESCURO: #403226; 64, 50, 38, 25;
+
+CORES ADICIONAIS COM BASE NAS CORES DA FOTO DE FUNDO
+
+VERDE MUSGO: #2D291A; rgba: 45, 41, 26, 18;
+NUDE: #A27A57; rgba: 162, 122, 87, 64;
+CINZA ESCURO: #1E1D22; 30, 29, 34, 13;
+LARANJA: #B85F2D; rgba: 184, 95, 45, 72;
+CINZA CLARO: #615A5A; rgba: 97, 90, 90, 38;
+*/
+
+* {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    color:#b3733b;
+}
+    
+
+
+h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #c2ac99;
+}
+
+h1 {
+    font-size: 390%;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 200;
+}
+
+h2::after {
+    display: block;
+    background-color: #333232;
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content: " ";
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0;
+}
+
+p, li, a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #404040;
+}
+
+p.destaque {
+    font-size: 105%;
+    line-height: 1.8;
+    font-weight: 300;
+
+    text-align: center;
+    width: 60%;
+}
+
+/* -------------------------------- */
+/* ELEMENTOS DO HEADER              */
+/* -------------------------------- */
+
+header div#chamada h1 {
+    
+    text-shadow: 4px 6px 12px #333232;
+}
+
+header div#chamada h4 {
+     font-size: 215%;
+     text-shadow: 4px 6px 12px #3f3e3e;
+
+     margin-bottom: 45px;
+}
+
+header div#chamada a {
+    font-size: 110%;
+    color: #b9afaf;
+    text-decoration: none;
+    font-weight: 600;
+
+    padding: 20px 30px;
+    border-radius: 35px;
+
+    background: linear-gradient(rgba(69, 113, 140, 55) 0%, rgba(64, 50, 38, 25) 40%, rgba(10, 10, 32, 10) 100%);
+}
+
+/* -------------------------------- */
+/*SEGUNDA SEÇÃO - CONTABILIDADE*/
+/* -------------------------------- */
+
+div.pontos-chaves h4 {
+    color: #2c2929;
+    
+}
+
+div.pontos-chaves h4::after {
+    display: block;
+    background-color: #8C6746;
+
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: " ";
+}
