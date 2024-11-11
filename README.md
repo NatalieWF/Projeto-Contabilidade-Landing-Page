@@ -1,7 +1,7 @@
 
 # Projeto Front-End sobre Contabilidade
 
-Este site foi criado para a proposta de um pedido, mas o cliente optou apenas por um protótipo. Então descidi terminar o site e utilizar como portfólio.
+Este site foi criado para a proposta de um pedido, mas o cliente optou apenas por um protótipo. Então decidi terminar o site e utilizar como portfólio.
 
 
 
